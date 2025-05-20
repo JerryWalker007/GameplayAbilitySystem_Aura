@@ -1,4 +1,4 @@
-// WalkerX GFL All Rights Reservered
+// WalkerX GFL All Rights Reserved
 
 #pragma once
 

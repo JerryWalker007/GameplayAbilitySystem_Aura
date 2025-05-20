@@ -1,4 +1,4 @@
-// WalkerX GFL All Rights Reservered
+// WalkerX GFL All Rights Reserved
 
 #pragma once
 
@@ -17,4 +17,6 @@ public:
 protected:
 	virtual void BeginPlay() override;
 
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	TObjectPtr<USkeletalMeshComponent> Weapon;
 };
